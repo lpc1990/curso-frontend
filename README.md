@@ -35,6 +35,7 @@ https://git-scm.com
 - git config --get user.email *Obtém email do usuário*
 - git commin -m 'Mensagem para esse commit' *Comando para commitar os arquivos - evite usar caracteres especiais como acentos e cedilha*
 - git push *Envia as alterações para o repositório online*
+- git pull *Baixa as alterações feitas nos arquivos editados pelo site do Github para o repositório local*
 
 ## Commits
 Informações de alteração
