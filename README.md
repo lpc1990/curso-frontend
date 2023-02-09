@@ -58,3 +58,5 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 
 ### Merge
 Mescla de branchs
+
+- git push --set-upstream origin dev - **Cria a branch dev no repositório online e envia as alterações**
