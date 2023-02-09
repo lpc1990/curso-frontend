@@ -59,7 +59,7 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 - git flow init - **No começo do projeto, define a branch de produção, a de testes, e além disso, esse comando cria várias branchs (features) de testes, updates, etc. T**
 - git flow feature start melhoria-html - **Cria uma branch (feature) temporária para setar melhorias antes do ambiente de testes**
 - touch .gitignore - **Cria um arquivo na pasta principal do repositório local que, dentro dela, deve ser indicado qual arquivos não subirão no commit para o repositório online. Dentro desse arquivo, deve-se colocar da seguinte forma: (*.zip) sem parênteses. Isso quer dizer que todos os arquivos zipados da pasta do repositório local não serão commitados**
-- git flow feature finish melhoria-html - **Encerra o branch de feature temporário melhoria-html**
+- git flow feature finish melhoria-html - **Encerra o branch de feature temporário melhoria-html, faz o merge da feature com o ambiente de testes e já te coloca no próprio ambiente de testes**
 
 ### Merge
 Mescla de branchs
