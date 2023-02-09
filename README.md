@@ -65,4 +65,4 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 Mescla de branchs
 
 - git push --set-upstream origin dev - **Cria a branch dev no repositório online e envia as alterações**
-- git merge main - **Faz o merge do ambiente atual com o ambiente main**
+- git merge main - **Faz o merge do main com o ambiente atual - Deve-se estar no ambiente na qual ainda não tem as alterações, para assim, puxar as modificações do ambiente que deseja. Explicação didática do código acima: "COPIE DO AMBIENTE MAIN PARA ESSE ATUAL QUE ESTOU LOGADO**
