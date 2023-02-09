@@ -1,5 +1,6 @@
 # curso-frontend
 Projeto para aprendizado do curso de frontend
+By Luiz Paulo
 
 #GIT
 ## Conceitos de versionamento
