@@ -52,7 +52,7 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 - DOD (Definition of done - Critérios de aceite)
 - Versionamento 1.0.0
 ### Comandos git branch
-- git checkout -b dev - **Cria a branck dev e já altera o ambiente atual para ela**
+- git checkout -b dev - **Cria a branck dev no repositório local e já altera o ambiente atual para ela**
 - git checkout dev - **Sem o parâmetro -b é feita somente a alteração de branch** 
 - git fetch --all - **Verifica se há alterações nos repositórios / deve ser feito antes de colocar o código do ambiente de testes para o de produção**
 - git branch - **Verifica as branchs existentes**
@@ -65,3 +65,4 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 Mescla de branchs
 
 - git push --set-upstream origin dev - **Cria a branch dev no repositório online e envia as alterações**
+- git merge main - **Faz o merge do ambiente atual com o ambiente main**
