@@ -55,6 +55,10 @@ São ramificações ou versões paralelas do código, como se fossem mesas de tr
 - git checkout -b dev - **Cria a branck dev e já altera o ambiente atual para ela**
 - git checkout dev - **Sem o parâmetro -b é feita somente a alteração de branch** 
 - git fetch --all - **Verifica se há alterações nos repositórios / deve ser feito antes de colocar o código do ambiente de testes para o de produção**
+- git branch - **Verifica as branchs existentes**
+- git flow init - **No começo do projeto, define a branch de produção, a de testes, e além disso, esse comando cria várias branchs (features) de testes, updates, etc. T**
+- git flow feature start melhoria-html - **Cria uma branch (feature) temporária para setar melhorias antes do ambiente de testes**
+- touch .gitignore - **Cria um arquivo na pasta principal do repositório local que, dentro dela, deve ser indicado qual arquivos não subirão no commit para o repositório online. Dentro desse arquivo, deve-se colocar da seguinte forma: (*.zip) sem parênteses. Isso quer dizer que todos os arquivos zipados da pasta do repositório local não serão commitados**
 
 ### Merge
 Mescla de branchs
