@@ -44,3 +44,17 @@ Informações de alteração
 
 ## GitFlow
 Fluxo do git
+
+### Branchs
+São ramificações ou versões paralelas do código, como se fossem mesas de trabalhos diferentes (Ambiente de testes seria uma branch, ambiente de produção seria outra branch, etc... )
+
+- main / master (É geralmente o ambiente de produção, quando as mudanças já foram testadas e aprovadas nos branchs de teste)
+- DOD (Definition of done - Critérios de aceite)
+- Versionamento 1.0.0
+### Comandos git branch
+- git checkout -b dev - **Cria a branck dev e já altera o ambiente atual para ela**
+- git checkout dev - **Sem o parâmetro -b é feita somente a alteração de branch** 
+- git fetch --all - **Verifica se há alterações nos repositórios / deve ser feito antes de colocar o código do ambiente de testes para o de produção**
+
+### Merge
+Mescla de branchs
