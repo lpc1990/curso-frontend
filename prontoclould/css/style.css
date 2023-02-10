@@ -168,3 +168,20 @@ footer small {
 }
 
 
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .container p,
+    .container ol li,
+    .container h4 {
+        padding-right: 28px;
+    }
+}
