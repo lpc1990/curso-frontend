@@ -65,6 +65,11 @@ p {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
     background-color: #FFF;
     display: block;
@@ -83,7 +88,8 @@ section nav {
 }
 
 nav li {
-    margin: .5rem 2rem .1rem 0; /* Ordem dos valores: Cima, esquerda, baixo, direita */
+    margin: .5rem 2rem .1rem 0;
+    /* Ordem dos valores: Cima, esquerda, baixo, direita */
     padding: 1rem;
     background-color: #efefef;
 }
@@ -139,4 +145,26 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+#tenho-interesse {
+    /* border: 1px solid #255 !important; */
+    /* margin-left: 370px; */
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #a0bad1;
+    
+    
+}
+
+.informacoes {
+    padding: 10px !important;
+    display: block;
+    margin: 0;
+}
+
+.cog-form__content, .cog-body, .cog-heading {
+    background-color: #a0bad1 !important;
+}
+
 
