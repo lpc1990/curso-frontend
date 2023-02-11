@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: bisque;
+    display: block;
+    margin: 0;
+}
+
+header h1 {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+section {
+    background-color: rgb(233, 225, 215);
+    padding: 10px;
+    display: block;
+    float: top;
+    margin: 0;
+}
+
+section div p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 50px;
+}
+
