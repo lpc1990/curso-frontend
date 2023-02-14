@@ -1,0 +1,62 @@
+table {
+	background: #FFFFFF;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr { /* Qualquer linha dentro da tables */
+	border: 1px solid #757575;
+
+}
+
+table th, td { /* th = conteúdo da linha do cabeçalho / td = conteúdo das linhas normais */
+	padding: 1rem 0;
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+table tbody tr:nth-child(odd) { /* Odd para as listrar linhas impares e even para pares */
+	background-color: #EEEEFF;
+}
+
+/* tbody representa o corpo da tabela / thead o cabeçalho / tfoot o rodapé */
+table tbody tr:hover { /* Animação de mudança quando passar o mouse encima */
+	background-color: rgba(0, 0, 185, .2);
+}
+
+
+table tr td:first-child { /* Primeiro item de cada td (conteúdeo da linha) de cada tr (cada linha) */
+	text-align: left;
+	font-weight: bold;
+}
+
+
+table th { /* Cada entrada do título da tabela */
+	background-color: #234589;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: left;
+}
+
+
+.table-container { /* Classe que representa a DIV de toda a tabela */
+	padding: 2rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot { 
+	background: #CCCCCC;
+}
+
+.table-container tfoot td{
+	font-weight: bold;
+
+}
